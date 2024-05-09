@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "makranamarble-68878",
+  "private_key_id": "49395480e4683f2f14d5256499a6055fad08d81f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7+Xzu6OlchAio\nYQMKNXSDv51qV+9Vzi0br9rZQ5vy5nvcUPXga7IqTzlUOjrNKDtsEb7XZTjEX2Rt\nyQfvZcfO6/CtUeFXCDmxoY5b0gb6FyX+ElTI1TR49EFwJqrw2vQ0i/2kMdQUxAmV\nYfyKzdIqSDAq1bz9AIpXbKft08tsAZ206zzmLaSPJB2uwVNbF6mHqSKMIxmoaRDD\ne4K0vFT111IBf1MX9gCF4uqWPrmJiYJ85ruhC5/LTpTRMfZt4VXmRE4i8zGEBbhZ\n0MZGxVbazWkcGOUDK7GHBpiHufb/pvkGd9/cI/P7y0nZMI58epPSw7mPHOjGbI7R\n6JergMy7AgMBAAECggEAGIMGGZlhpODKyDouTUx/LxbzjgR9fzDtjOi3nxFD6r7H\ndAlSprskdoPyM9uMA2i1pvgBbNEUP/c4f2BxmnQpRABcWB2PRuwZqeIpUCvpIP+X\nwrPdPnse5o7jYZ6JN/M1WQzQPHMK9tJBdatbZTZFq6HSNiO9Czjg0Vmn5El0A1dR\nJZsMvdqnQ7uqXWok7HF1NtUk+koxLSaxMlgud+P3F8cugN1lKsm9jex0bxts1zUh\nIoEhLZcuk2fKN/uJwxYCBtAIQCML5MCrT00VDu+AIUkqNEskZY6pyLF45u5yIRrt\nOdMZaaGQA1sJ/NrNHv6jxpbW+BW2geCma4G+2A1LUQKBgQDwy0f5iybo2sIe+/uk\nCcmvNdCb15sUdgGtOyrlVdsbXIzMoXcIjniH0XHxjf5wZZOLlYcPa6ifcTZYPYp5\n6CLdmUME9wAq/e5/Gi67aOTxazN6OdmT0XvO1BX/WKYxRyx78dBRpQM1RSl66mo2\nHAVOvP89d6H0t95NiWUUB6tXVwKBgQDH2FFLW0i4weUT0Ihiu9CndDlZITwhA+q0\nFPHe+Jk+CjcZ9AQJWSyzfNfy/oy72elfdaeTUul/KoOrHphlf3XTCp8t94xWRX1e\nwPgftxjrnPmgW0mKkWSoL2W8lElcaRCOUARCw/MaeDut/Bx/gTySJ1zpZteO4RvB\njFP+hg3LPQKBgBLs91A+xqUgpIdI6ONgvZBe23GURaUbDVCvSNTTpbAF2y8uNavf\nfsu2A42nymrNIQakjwQAQzWc8VeIJr0kKLFgHWtjeojmgntM9IVYXj43XclqiJZc\nra147+2s6wsOfAmV3Pi9zn2+XN9DU2vDUgt5QVp0b69LUFapyN8FJ0trAoGBAJvh\n8AeHvMHg/H7oOnpJZgg4cENF2VEnbPvrGn+CCoaKEVD9NejU1jlrOEcip0QgRhlf\n/Ma99cRrtSjVRKpnMdDciC2i2qSwr4opm2GhwJ6IY27hxguAPbOyxPjD8jVS/scD\nQ0+Q6R/MiUC9Vr1eYZDfg2nL/nhEvxHKE/qFNl1BAoGAPjwdT68rcY8i06FjbuB4\nPWfQfXDFQ+Xt03ZACTrWZG29P+sZrB5BBwHCmiHiOQXHN6FBGP0JdMm4VnrMbm8e\nVuq2X6tDXWYQqAcQneZMiNvSKx/QVfx0JTRU1u+htO5yXy9uWWqPYQc1v+Z8wqRl\nbYjrXx0Hi6NUJRFG4tLP8UI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8c2lv@makranamarble-68878.iam.gserviceaccount.com",
+  "client_id": "113705573142931728096",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8c2lv%40makranamarble-68878.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
