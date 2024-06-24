@@ -197,6 +197,13 @@ def actioneditstockapi():
     }
     date=str(datetime.now().date())
     ref.child("stocklist").child(id).update(data)
+
+
+
+# here is the code to add all the data in action list
+
+    stockdata=ref.child('stocklist').child(id).get()
+    userdata=ref.child('workerlist').child(userkey).get()
     dataforactlist={
         "stockid": id,
         "userkey": userkey,
@@ -204,7 +211,12 @@ def actioneditstockapi():
         "editgodam1":editgodam1,
         "editgodam2": editgodam2,
         "description": description,
-        "date": date 
+        "date": date,
+        "sname": stockdata['sname'],
+        "brand": stockdata['brand'],
+        "size": stockdata['size'],
+        "username": userdata['name']
+    }
     }
     ref.child("actionlist").push(dataforactlist)
     flag = {
