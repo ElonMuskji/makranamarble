@@ -216,7 +216,7 @@ def actioneditstockapi():
         "brand": stockdata['brand'],
         "size": stockdata['size'],
         "username": userdata['name']
-    }
+    
     }
     ref.child("actionlist").push(dataforactlist)
     flag = {
