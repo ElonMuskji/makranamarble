@@ -241,34 +241,8 @@ def getactionlistapi():
     
     # Get the data from Firebase
     data = ref.child("actionlist").get()
-    newdata={
-
-    }
-    for node_id, node_data in data.items():
-        stock_id = node_data["stockid"]
-        stock_data=ref.child("stocklist").child(stock_id).get()
-        node_data["sname"] = stock_data["sname"]
-        node_data["brand"] = stock_data["brand"]
-        node_data["category"] = stock_data["category"]
-        node_data["godam1"] = stock_data["godam1"]
-        node_data["godam2"] = stock_data["godam2"]
-        node_data["pcsperbox"] = stock_data["pcsperbox"]
-        node_data["size"] = stock_data["size"]
-        node_data["sqrft"] = stock_data["sqrft"]
-        node_data["unit"] = stock_data["unit"]
-        node_data["weight"] = stock_data["weight"]
-
-        newdata[node_id] = node_data
-        # print(stock_data['sname'])
-        # print(f"Node ID: {node_id}, Stock ID: {stock_id}")
-    for node_id, node_data in data.items():
-        user_key = node_data["userkey"]
-        user_data=ref.child("workerlist").child(user_key).get()
-        node_data["name"] = user_data["name"]
-        node_data["usernumber"] = user_data["number"]
-        newdata[node_id] = node_data
-    # Return the data as JSON with a status code of 200
-    return jsonify(newdata), 200
+   
+    return jsonify(data), 200
 
 @app.route('/getworker', methods=['GET'])
 def getworker():
